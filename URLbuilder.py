@@ -57,6 +57,8 @@ def inputRequest(host):
     except requests.exceptions.ConnectionError as e:  #To avoid to long error trace, just will respond with no conn msg 
     # the FAIL var give red color to text and ENDC will give you back your terminal color
         print(f'{FAIL} [-] {ENDC}' + 'No connection has been established for host/IP ' + host + '\n')
+    except requests.exceptions.InvalidURL: 
+        print(f'{FAIL} [-] {ENDC}' + "Invalid URL: " + URL)
 
 inputType = inputValidation(args.input)
 try:
