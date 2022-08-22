@@ -3,8 +3,9 @@ Script to generate a URL list to scan / fuzz from a network address. It works wi
 
 This is the first version of this single script. I created because I wanted to have some cool time programming, there could be way more better approaches than this simple script.
 
+'''
 usage: URLbuilder.py [-h] [--output OUTPUT] [--noslash] [--noredirect] input
-URLbuilder.py: error: the following arguments are required: input
+'''
 
 # Pending Updates
 
