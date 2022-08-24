@@ -17,7 +17,7 @@ http://192.168.0.1/
 http://192.168.0.2/
 http://192.168.0.3/
 
-If there are redirects, the corresponding URLs will be added unless --noredirect is specified
+If there are redirects, the corresponding URLs will be added unless --noredirect is specified. If an IP is not alive, it won't be included in the list. 
 ```
 
 No slash option removes the slash at the end of the URL. Does not apply for redirect URLs.
